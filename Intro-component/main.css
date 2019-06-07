@@ -95,6 +95,8 @@ body {
 .form_claim-button:hover {
     background-color: hsl(154, 88%, 84%);
     color: hsl(154, 59%, 51%);
+    transition: ease-in-out 0.2s;
+    border: 1px solid hsl(154, 59%, 51%);
 }
 
 /*Button height and spacing*/
