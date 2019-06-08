@@ -6,7 +6,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: white;
     text-align: center;
-    Font size: 16px;
+    Font-size: 16px;
 }
 
 /*General alignment*/
@@ -97,6 +97,23 @@ body {
     color: hsl(154, 59%, 51%);
     transition: ease-in-out 0.2s;
     border: 1px solid hsl(154, 59%, 51%);
+}
+
+.form_invalid {
+    border: 1px solid rgb(255, 0, 0);
+
+}
+
+.form_invalid::after {
+    content: "Required field";
+}
+
+.form_valid {
+    border: 1px solid rgb(0, 184, 0);
+}
+
+.form_invalid::placeholder {
+    color: rgb(255, 0, 0);
 }
 
 /*Button height and spacing*/

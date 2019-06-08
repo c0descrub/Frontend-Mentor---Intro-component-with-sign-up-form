@@ -23,11 +23,11 @@
       <div class="col-xs-12 col-lg-6">
         <div class="form_header"><p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p></div>
           <form class="form_body">
-            <input class="form_input" type="text" placeholder="First Name" required></input>
-            <input class="form_input" type="text" placeholder="Last Name" required></input>
-            <input class="form_input" type="email" placeholder="Email Address" required></input>
-            <input class="form_input" type="password" placeholder="Password" required></input>
-            <input type="submit" class="form_claim-button" value="Claim your free trial"></input>
+            <input id="fn" class="form_input" type="text" placeholder="First Name"></input>
+            <input id="ln" class="form_input" type="text" placeholder="Last Name"></input>
+            <input id="email" class="form_input form_input--email" type="email" placeholder="Email Address"></input>
+            <input id="pwd" class="form_input form_input--password" type="password" placeholder="Password"></input>
+            <input onclick="formValidation() return false;" id="submit" type="submit" class="form_claim-button" value="Claim your free trial"></input>
             <p class="form_disclaimer-text">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
           </form>
       </div>
@@ -39,5 +39,6 @@
     Coded by <a href="https://github.com/c0descrub">c0descrub</a>.
     </p>
   </footer>
+  <script src="main.js"></script>
 </body>
 </html>
