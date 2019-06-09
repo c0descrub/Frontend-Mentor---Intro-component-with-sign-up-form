@@ -101,6 +101,7 @@ body {
 
 .form_invalid {
     border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 239, 239);
 
 }
 
@@ -110,6 +111,7 @@ body {
 
 .form_valid {
     border: 1px solid rgb(0, 184, 0);
+    background-color: rgb(218, 253, 218)
 }
 
 .form_invalid::placeholder {
@@ -178,7 +180,7 @@ body {
     font-size: 3em;
     text-align: left;
     margin: 0;
-    margin-top: 200px;
+    margin-top: 130px;
     margin-left: 0px;
     margin-bottom: 20px;
 
